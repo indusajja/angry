@@ -3,7 +3,7 @@ var fixedRect, movingRect;
 function setup() {
   createCanvas(1200,800);
   fixedRect = createSprite(200, 200, 50, 80);
-  fixedRect.shapeColor = "orange";
+  fixedRect.shapeColor = "pink";
   fixedRect.debug = true;
   movingRect = createSprite(200, 600,80,30);
   movingRect.shapeColor = "blue";
